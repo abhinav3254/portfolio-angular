@@ -1,99 +1,41 @@
 <div [@fadeInOut] *ngIf="showComponent">
     <div class="card">
         <h4 class="details">About Me</h4>
+        <p><em>... coding is like running long marathons</em></p>
         <p>
-            I am Abhinav Jha, a dedicated professional based in Darbhanga, Bihar, with a strong background in software
-            engineering. As a seasoned Software Engineer, I have honed my skills through a wealth of practical
-            experience,
-            enabling me to excel in the dynamic world of technology. I am passionate about solving complex problems and
-            developing innovative solutions, and I continually strive for excellence in my work. My commitment to
-            staying at
-            the
-            forefront of technological advancements has allowed me to contribute effectively to a variety of projects
-            and
-            deliver results that align with the highest standards of quality. I take pride in my ability to collaborate
-            with
-            cross-functional teams and adapt to the evolving landscape of software development. With a steadfast
-            dedication
-            to
-            my craft, I am driven to make a meaningful impact in the world of technology.
-        </p>
-
-
-        <p>
-            As a dedicated and versatile freelancer, I bring a wealth of expertise and a commitment to excellence to
-            every
-            project I undertake. With a passion for my work and a strong foundation in my field, I have built a
-            reputation
+            I am Abhinav Jha, a skilled software engineer based in Darbhanga, Bihar. With extensive practical
+            experience, I excel in the dynamic tech world, consistently delivering top-quality solutions. My passion
             for
-            delivering high-quality results and tailored solutions. My journey as a freelancer has allowed me to
-            collaborate
-            with clients from diverse industries, providing me with a broad perspective and a deep understanding of the
-            unique
-            challenges they face. Whether it's web development, graphic design, content creation, or any other creative
-            endeavor, I take pride in my ability to turn ideas into reality. I value open communication and
-            transparency,
-            ensuring that my clients are always informed and satisfied with the progress of their projects. I am driven
-            by
-            the
-            pursuit of perfection and thrive on the opportunity to tackle new challenges. With a strong work ethic and a
-            commitment to client satisfaction, I am eager to bring my skills and creativity to your next project.
-
-        </p>
-
-        <p>
-            In addition to my freelancing career, I am also a seasoned Full Stack Developer with a deep-rooted passion
-            for
-            crafting innovative digital solutions. My journey in the realm of web development has been marked by a
-            relentless
-            pursuit of excellence, a commitment to staying at the cutting edge of technology, and a dedication to
-            delivering
-            results that go beyond client expectations. With a robust skill set encompassing both front-end and back-end
-            development, I bring a holistic approach to every project. My expertise extends to a wide range of
-            programming
-            languages, frameworks, and tools, enabling me to architect dynamic web applications that not only meet but
-            exceed
-            the requirements of modern businesses.
-
-        </p>
-
-
-
-        <p>
-            My experience has afforded me the opportunity to collaborate with diverse teams and clients, allowing me to
-            appreciate the unique intricacies of various industries. I am a firm believer in the power of effective
-            communication and thrive on building long-lasting professional relationships based on trust and
-            transparency. As
-            a
-            Full Stack Developer, I embrace challenges as opportunities for growth and innovation. I am driven by a
-            desire
-            to
-            create elegant and efficient solutions that drive businesses forward in the digital age. If you're seeking a
-            dedicated, results-oriented developer who can transform your vision into reality, I'm ready to embark on
+            problem-solving and innovation drives me to stay at the forefront of technology, contributing
+            effectively to
+            diverse projects. I pride myself on seamless cross-functional collaboration, adaptability in evolving
+            software development, and my unwavering commitment to making a significant impact in the technology
+            sector.
+            Additionally, I am an adept Full Stack Developer, dedicated to creating innovative digital solutions
             that
-            journey with you.
+            surpass client expectations. My proficiency extends to various programming languages and frameworks,
+            fostering strong professional relationships based on trust and transparency. I embrace challenges as
+            opportunities for growth and stand ready to bring your digital vision to life.
         </p>
     </div>
-</div>
 
-<div class="card">
-    <h4 class="details">Educational Details</h4>
-    <p>
-        I completed my secondary education at DAV Public School, where I laid a strong foundation for my academic
-        journey. Following my high school graduation, I pursued my intermediate education at Sri Chaitanya, focusing on
-        Physics, Chemistry, and Mathematics. This period instilled in me a deep appreciation for the sciences and a
-        commitment to rigorous intellectual pursuits.
-    </p>
-    <p>
-        My educational journey culminated with the completion of my Bachelor of Technology (B.Tech) in Computer Science
-        and Engineering from Bansal Group of Institutes. This higher education experience provided me with a
-        comprehensive understanding of the dynamic field of computer science and equipped me with the skills and
-        knowledge necessary to thrive in the ever-evolving world of technology.
-    </p>
-    <p>
-        Throughout my educational endeavors, I embraced the challenges and opportunities for growth, and I have carried
-        the lessons I learned into my professional career. My academic background serves as a testament to my dedication
-        to continuous learning and personal development, which I bring to every project and task I undertake as a
-        lifelong learner and professional.
-    </p>
+    <div class="card">
+        <h4 class="details">Hobbies</h4>
+        <div class="hobbies-img">
+            <div class="for-hobby" *ngFor="let hobby of hobbies">
+                <img class="hobby-img" src="{{hobby.src}}" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h4 class="details">Social</h4>
+        <div class="hobbies-img">
+            <div class="for-hobby" (click)="socialLink(social.link)" *ngFor="let social of socials">
+                <img class="hobby-img" src="{{social.src}}" alt="">
+            </div>
+        </div>
+    </div>
+
+
 </div>

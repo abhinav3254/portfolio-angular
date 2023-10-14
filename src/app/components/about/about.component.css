@@ -24,3 +24,79 @@
     text-decoration-thickness: 2px;
     font-weight: 600;
 }
+
+.hobbies-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.for-hobby {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hobby-img {
+    width: 4rem;
+    height: 4rem;
+    transition: all 1s;
+    border-radius: 5rem;
+}
+
+.hobby-img:hover {
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    animation: fly .6s ease forwards;
+    animation: btnAnime 1.6s ease forwards;
+}
+
+
+@media screen and (max-width: 600px) {}
+
+@keyframes btnAnime {
+    5% {
+        transform: scale(0.8);
+    }
+
+    25% {
+        background: none;
+    }
+
+    50% {
+        transform: scale(1.5);
+        /* border: 1px solid #555; */
+    }
+
+    100% {
+        transform: scale(1);
+        background: rgba(255, 255, 255, 0.1);
+        /* border: 1px solid #555; */
+    }
+}
+
+@keyframes fly {
+    16.6% {
+        transform: translate(50px, -60px) rotate(-60deg);
+    }
+
+    33.33% {
+        transform: translate(50px, -100px) rotate(-120deg);
+    }
+
+    49.8% {
+        transform: translate(0, -120px) rotate(-180deg);
+    }
+
+    66.4% {
+        transform: translate(-50px, -100px) rotate(-240deg);
+    }
+
+    83% {
+        transform: translate(-50px, -50px) rotate(-300deg);
+    }
+
+    100% {
+        transform: translate(0, 0) rotate(-360deg);
+    }
+}

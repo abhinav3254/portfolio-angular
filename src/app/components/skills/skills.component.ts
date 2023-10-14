@@ -1,11 +1,24 @@
+import { animate, style, transition, trigger } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-skills',
   templateUrl: './skills.component.html',
-  styleUrls: ['./skills.component.css']
+  styleUrls: ['./skills.component.css'],
+  animations: [
+    trigger('fadeInOut', [
+      transition(':enter', [style({ opacity: 0 }), animate('1000ms', style({ opacity: 5 }))]),
+      transition(':leave', [animate('1000ms', style({ opacity: 0 }))]),
+    ]),
+  ],
 })
 export class SkillsComponent {
+
+  showComponent: boolean = true;
+
+  toggleComponent() {
+    this.showComponent = !this.showComponent;
+  }
 
   skills = [
     {

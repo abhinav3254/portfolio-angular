@@ -35,3 +35,14 @@
 .my-map iframe {
     width: 100%;
 }
+
+/* animation for angular */
+.fade-enter,
+.fade-leave {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 300ms;
+}
