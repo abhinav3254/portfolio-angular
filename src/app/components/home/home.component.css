@@ -1,0 +1,71 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.left {
+    width: 50%;
+}
+
+.left img {
+    width: 100%;
+    margin: auto;
+}
+
+.right {
+    width: 50%;
+}
+
+.r-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-container {
+    text-align: center;
+}
+
+.hello {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+}
+
+.name {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.name span {
+    color: red;
+    font-size: 3.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.links {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.links img {
+    height: 5rem;
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); */
+    transition: all 1s;
+}
+
+.links img:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
