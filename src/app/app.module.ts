@@ -14,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SpinnerComponent } from './components/spinner/spinner.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatTreeModule
+    MatTreeModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]

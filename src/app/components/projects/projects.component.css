@@ -3,6 +3,7 @@
     flex-direction: row;
     margin: 1rem 2rem;
     padding: 1rem;
+    font-family: Ubuntu;
 }
 
 .left {
@@ -13,8 +14,37 @@
 }
 
 .left img {
-    height: 360px;
+    height: 100%;
     width: 100%;
+}
+
+.right {
+    margin: auto 1rem;
+    width: 50%;
+}
+
+.tech-stack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tech-stack img {
+    height: 10%;
+    width: 20%;
+    text-align: center;
+    margin: auto;
+}
+
+.btn-details {
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.right-h4 {
+    font-family: Ubuntu;
+    font-weight: 900;
 }
 
 
@@ -34,6 +64,14 @@
 
     .right {
         width: 100%;
+    }
+
+    .right-h4 {
+        text-align: center;
+    }
+
+    .tech-stack {
+        margin: 1rem;
     }
 
 }

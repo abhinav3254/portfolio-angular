@@ -1,0 +1,37 @@
+.one-card {
+    margin: 2rem;
+}
+
+.main-form {
+    width: 50%;
+    margin: 5rem auto;
+}
+
+.contact-img {
+    width: 35%;
+    height: 35%;
+    margin: 1rem auto;
+}
+
+.sbt-btn {
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.sbt-btn button {
+    background-color: #6c63ff;
+}
+
+.contact-us-h2 {
+    font-family: Ubuntu;
+    margin: 1rem auto;
+}
+
+.my-map {
+    display: inline-block;
+    text-align: center;
+}
+
+.my-map iframe {
+    width: 100%;
+}
