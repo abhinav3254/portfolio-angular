@@ -5,6 +5,7 @@
     height: 92vh;
 }
 
+
 .left {
     width: 50%;
 }
@@ -31,16 +32,18 @@
     font-size: 2.5rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
+    color: #3f3d56;
 }
 
 .name {
     font-size: 2.5rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
+    color: #3f3d56;
 }
 
 .name span {
-    color: red;
+    color: #6c63ff;
     font-size: 3.5rem;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 600;
@@ -68,4 +71,26 @@
 .links img:hover {
     box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
     cursor: pointer;
+}
+
+
+/* writing media query for responsive */
+
+@media screen and (max-width: 600px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
 }
