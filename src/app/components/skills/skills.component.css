@@ -1,0 +1,25 @@
+/* .container {
+    height: 95vh;
+} */
+
+.skill-one {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    /* border: 1px solid black; */
+    padding: 1rem;
+    transition: all 1s;
+    text-align: center;
+}
+
+.skill-one img {
+    width: 20rem;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-one:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
