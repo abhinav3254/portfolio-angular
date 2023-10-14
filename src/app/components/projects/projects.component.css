@@ -1,0 +1,39 @@
+.one {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 2rem;
+    padding: 1rem;
+}
+
+.left {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+.left img {
+    height: 360px;
+    width: 100%;
+}
+
+
+/* writing media query for responsive */
+@media screen and (max-width: 600px) {
+
+    .one {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+}

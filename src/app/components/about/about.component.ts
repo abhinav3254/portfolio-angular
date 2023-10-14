@@ -17,5 +17,4 @@ export class AboutComponent {
 
   showComponent: boolean = true;
 
-
 }

@@ -12,6 +12,8 @@ import { WorkComponent } from './components/work/work.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SpinnerComponent } from './components/spinner/spinner.component';
+import { MatTreeModule } from '@angular/material/tree';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -23,12 +25,14 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
     SkillsComponent,
     WorkComponent,
     ContactComponent,
-    SpinnerComponent
+    SpinnerComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTreeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
