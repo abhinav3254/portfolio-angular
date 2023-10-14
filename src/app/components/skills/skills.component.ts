@@ -79,9 +79,17 @@ export class SkillsComponent {
     {
       "name": "Microservice",
       "src": "assets/images/microservice-icon.svg"
+    },
+    {
+      "name": "Typescript",
+      "src": "assets/images/typescriptlang-ar21.svg"
+    }
+    ,
+    {
+      "name": "Postgresql",
+      "src": "assets/images/postgresql-ar21.svg"
     }
   ]
-
 
 
 

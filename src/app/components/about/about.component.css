@@ -14,3 +14,11 @@
 .fade-leave-active {
     transition: opacity 300ms;
 }
+
+.details {
+    color: #3f3d56;
+    text-decoration: underline;
+    text-decoration-color: #6c63ff;
+    text-decoration-style: initial;
+    text-decoration-thickness: 2px;
+}
