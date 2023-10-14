@@ -1,0 +1,16 @@
+.card {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+/* angular transition */
+.fade-enter,
+.fade-leave {
+    opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 300ms;
+}
