@@ -1,4 +1,10 @@
-<div [@fadeInOut] *ngIf="showComponent">
+<app-spinner *ngIf="loadingService.isLoading"></app-spinner>
+
+
+<div [@fadeInOut] *ngIf="showComponent && !loadingService.isLoading">
+
+    <!-- <div [@fadeInOut] *ngIf="showComponent"> -->
+
     <div class="card one-card">
 
         <img class="contact-img" src="assets/contact_us.svg" alt="">
@@ -16,7 +22,7 @@
                 <label for="floatingTextarea2">Comments</label>
             </div>
             <div class="sbt-btn">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" (click)="sendForm()" class="btn btn-primary">Submit</button>
             </div>
         </form>
 

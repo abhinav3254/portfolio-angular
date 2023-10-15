@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { trigger, transition, animate, style } from '@angular/animations';
+import { SpinnerserviceService } from '../spinner/spinnerservice.service';
 
 
 @Component({
@@ -15,10 +16,16 @@ import { trigger, transition, animate, style } from '@angular/animations';
 })
 export class ContactComponent {
 
+  constructor(public loadingService: SpinnerserviceService) { }
+
   showComponent: boolean = true;
 
   toggleComponent() {
     this.showComponent = !this.showComponent;
+  }
+
+  sendForm() {
+    alert('server is not responding!\ntry after some time!!')
   }
 
 
