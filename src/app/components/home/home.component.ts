@@ -36,4 +36,14 @@ export class HomeComponent implements OnInit {
     }, 1000);
   }
 
+  gitHubRedirect() {
+    const link = 'https://www.github.com/abhinav3254';
+    window.open(link, '_blank');
+  }
+
+  linkedInRedirect() {
+    const link = 'https://www.linkedin.com/in/abhinav3254';
+    window.open(link, '_blank');
+  }
+
 }
