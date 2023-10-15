@@ -4,7 +4,7 @@
 
         <div class="socials-links">
 
-            <div class="social-items" *ngFor="let social of socials">
+            <div class="social-items" (click)="socialLink(social.link)" *ngFor="let social of socials">
                 <img class="social-items-img" src="{{social.src}}" alt="">
             </div>
 

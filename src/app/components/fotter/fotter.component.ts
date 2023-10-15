@@ -7,6 +7,10 @@ import { Component } from '@angular/core';
 })
 export class FotterComponent {
 
+  socialLink(src: any) {
+    window.open(src, '_blank');
+  }
+
 
   socials = [
     {
