@@ -15,6 +15,7 @@ import { SpinnerComponent } from './components/spinner/spinner.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { MatInputModule } from '@angular/material/input';
+import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MatInputModule } from '@angular/material/input';
     WorkComponent,
     ContactComponent,
     SpinnerComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
