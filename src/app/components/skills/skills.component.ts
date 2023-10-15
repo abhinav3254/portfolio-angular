@@ -96,11 +96,31 @@ export class SkillsComponent {
     {
       "name": "Typescript",
       "src": "assets/images/typescriptlang-ar21.svg"
-    }
-    ,
+    },
     {
       "name": "Postgresql",
       "src": "assets/images/postgresql-ar21.svg"
+    },
+    {
+      "name": "TSQL",
+      "src": "assets/sql-server.svg"
+    },
+    {
+      "name": "Python",
+      "src": "assets/python-ar21.svg"
+    },
+    {
+      "name": "Flask",
+      "src": "assets/pocoo_flask-ar21.svg"
+    }
+    ,
+    {
+      "name": "Kotlin",
+      "src": "assets/kotlinlang-ar21.svg"
+    },
+    {
+      "name": "Express",
+      "src": "assets/expressjs-ar21.svg"
     }
   ]
 
