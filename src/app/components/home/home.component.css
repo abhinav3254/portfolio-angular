@@ -33,6 +33,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
     color: #3f3d56;
+    margin: 1rem;
 }
 
 .name {
@@ -40,6 +41,7 @@
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     color: #3f3d56;
+    margin: 1rem;
 }
 
 .name span {
@@ -91,6 +93,18 @@
 
     .right {
         width: 100%;
+    }
+
+    .hello {
+        font-size: 1.5rem;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .name span {
+        font-size: 2rem;
     }
 
 }
