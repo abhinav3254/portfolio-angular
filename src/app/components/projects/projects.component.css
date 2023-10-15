@@ -47,6 +47,11 @@
     font-weight: 900;
 }
 
+.right-h4 h4 {
+    font-family: Ubuntu;
+    font-weight: 600;
+}
+
 
 /* writing media query for responsive */
 @media screen and (max-width: 600px) {
