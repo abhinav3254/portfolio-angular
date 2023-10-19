@@ -7,6 +7,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { WorkComponent } from './components/work/work.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
+import { TestComponent } from './components/test/test.component';
 
 const routes: Routes = [
   {
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path: 'project',
     component: ProjectsComponent
+  },
+  {
+    path: 'test',
+    component: TestComponent
   },
   {
     path: '**',
