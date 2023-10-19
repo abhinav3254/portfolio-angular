@@ -121,6 +121,10 @@ export class SkillsComponent {
     {
       "name": "Express",
       "src": "assets/expressjs-ar21.svg"
+    },
+    {
+      "name": "jQuery",
+      "src": "assets/images/jquery-ar21.svg"
     }
   ]
 
