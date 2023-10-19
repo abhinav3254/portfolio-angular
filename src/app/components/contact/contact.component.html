@@ -8,12 +8,19 @@
                 <!-- for form -->
                 <div class="form-data">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name">
+                        <input type="text" class="form-control" [(ngModel)]="name_user" id="floatingInput"
+                            placeholder="Enter your name">
                         <label for="floatingInput">Enter your name</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingPassword" placeholder="Enter your email">
+                        <input type="email" class="form-control" id="floatingPassword" [(ngModel)]="email_user"
+                            placeholder="Enter your email">
                         <label for="floatingPassword">Enter your email</label>
+                        <p class="email-valid"
+                            *ngIf="email_user.length > 0 && (!email_user.includes('@') || email_user[0] === '@' || email_user.endsWith('@'))">
+                            Invalid email address...
+                        </p>
+
                     </div>
                     <div class="form-floating">
                         <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"

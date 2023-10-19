@@ -71,6 +71,11 @@
     margin: auto;
 }
 
+.email-valid {
+    color: #ff6347;
+    margin-top: 0.5rem;
+}
+
 
 /* for map */
 .my-map {

@@ -16,6 +16,10 @@ import { SpinnerserviceService } from '../spinner/spinnerservice.service';
 })
 export class ContactComponent {
 
+  name_user: string = '';
+  email_user: string = '';
+
+
   constructor(public loadingService: SpinnerserviceService) { }
 
   showComponent: boolean = true;

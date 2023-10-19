@@ -17,6 +17,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { MatInputModule } from '@angular/material/input';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { TestComponent } from './components/test/test.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { TestComponent } from './components/test/test.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatTreeModule,
-    MatInputModule
+    MatInputModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
