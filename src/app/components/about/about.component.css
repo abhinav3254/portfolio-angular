@@ -4,6 +4,10 @@
     font-family: Ubuntu;
 }
 
+.margin-top-5rem {
+    margin-top: 5rem;
+}
+
 
 /* angular transition */
 .fade-enter,
