@@ -17,16 +17,15 @@
     transition: all 1.5s;
 }
 
-.nav-item:hover {
-    /* color: #6c63ff; */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
-    /* border: 1px solid white; */
-}
 
 
 .nav-link {
     color: white;
     transition: all 1s;
+}
+
+.dropdown-item {
+    cursor: pointer;
 }
 
 

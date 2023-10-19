@@ -28,6 +28,15 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/contact">Contact</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Notes
+                    </a>
+                    <ul class="dropdown-menu" *ngFor="let item of dropdownListsLinks">
+                        <li><a class="dropdown-item" (click)="notesLink(item.link)">{{item.name}}</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>

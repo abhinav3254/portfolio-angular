@@ -27,4 +27,15 @@ export class NavBarComponent {
   }
 
 
+  notesLink(src: any) {
+    window.open(src, '_blank');
+  }
+
+  dropdownListsLinks = [
+    {
+      "name": "Azure-Java",
+      "link": "https://learn.microsoft.com/pdf?url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fazure%2Fdeveloper%2Fjava%2Fspring-framework%2Ftoc.json"
+    }
+  ]
+
 }
