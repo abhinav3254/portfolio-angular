@@ -4,6 +4,23 @@
 }
 
 
+.navbar {
+    background-color: #6c63ff;
+}
+
+.nav-link {
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.2rem;
+}
+
+.nav-link:hover {
+    color: #6c63ff;
+    background-color: white;
+}
+
 @media screen and (max-width: 600px) {
     .nav-link {
         font-size: 0.8rem;
