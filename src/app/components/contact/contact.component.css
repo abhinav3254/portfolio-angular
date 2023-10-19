@@ -1,48 +1,136 @@
-.one-card {
-    margin: 2rem;
+.one-main {
+    margin: 5rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 75vh;
+    border-radius: 1rem;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.4);
+    /* background-color: #6b72f7; */
 }
 
-.main-form {
+.left {
     width: 50%;
-    margin: 5rem auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.contact-img {
-    width: 35%;
-    height: 35%;
-    margin: 1rem auto;
+.left-main-one {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
 }
 
-.sbt-btn {
-    margin: 1rem auto;
-    text-align: center;
-}
-
-.sbt-btn button {
-    background-color: #6c63ff;
-}
-
-.contact-us-h2 {
+.h2-left {
+    margin: 1rem 0.5rem;
+    font-size: 2.5rem;
+    color: #6b72f7;
     font-family: Ubuntu;
-    margin: 1rem auto;
 }
 
-.my-map {
-    display: inline-block;
+.p-left {
+    margin: 1rem 0.5rem;
+    font-size: 1.5rem;
+    font-family: Ubuntu;
+}
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-data div {
+    margin: 0.2rem;
+}
+
+.form-data button {
+    margin: 0.5rem 0.2rem;
+    background-color: #6b72f7;
+    border: none;
+    transition: all 1s;
+}
+
+.form-data button:hover {
+    opacity: 0.8;
+}
+
+.right {
+    width: 50%;
+    margin: auto 0px;
+}
+
+.img-right {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
     text-align: center;
 }
 
-.my-map iframe {
-    width: 100%;
+.img-right img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
 }
 
-/* animation for angular */
-.fade-enter,
-.fade-leave {
-    opacity: 0;
+
+/* for map */
+.my-map {
+    margin: auto;
+    text-align: center;
+    margin: 1rem;
+    /* box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); */
+    border-radius: 1rem;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-    transition: opacity 300ms;
+iframe {
+    width: 80%;
+    border-radius: 1rem;
+}
+
+
+/* media queries */
+
+
+@media screen and (max-width: 600px) {
+
+    .one-main {
+        flex-direction: column;
+        margin: 1rem 1rem 2rem 1rem;
+        height: 100%;
+        padding: 1rem 0.5rem;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+
+    .right {
+        width: 100%;
+        height: 100%;
+    }
+
+    .img-right img {
+        height: 50%;
+        width: 50%;
+    }
+
+    .left {
+        width: 100%;
+        height: 100%;
+    }
+
+    .h2-left {
+        margin: 1rem 0.5rem;
+        font-size: 2rem;
+        color: #6b72f7;
+        font-family: Ubuntu;
+    }
+
+    .p-left {
+        margin: 1rem 0.5rem;
+        font-size: 1rem;
+        font-family: Ubuntu;
+    }
+
+    .my-map {
+        margin: 2rem auto;
+    }
+
+
 }
