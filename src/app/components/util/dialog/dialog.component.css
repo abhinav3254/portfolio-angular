@@ -1,0 +1,6 @@
+.pop-card {
+    max-height: 40rem;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+    /* This adds vertical scroll if content overflows the container */
+}

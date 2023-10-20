@@ -18,6 +18,8 @@ import { MatInputModule } from '@angular/material/input';
 import { PageNotFoundComponent } from './components/page-not-found/page-not-found.component';
 import { TestComponent } from './components/test/test.component';
 import { FormsModule } from '@angular/forms';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DialogComponent } from './components/util/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,8 @@ import { FormsModule } from '@angular/forms';
     SpinnerComponent,
     ProjectsComponent,
     PageNotFoundComponent,
-    TestComponent
+    TestComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +43,8 @@ import { FormsModule } from '@angular/forms';
     BrowserAnimationsModule,
     MatTreeModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
