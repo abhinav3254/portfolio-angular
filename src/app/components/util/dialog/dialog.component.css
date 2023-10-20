@@ -1,6 +1,21 @@
-.pop-card {
-    max-height: 40rem;
-    /* Adjust the height as needed */
-    overflow-y: auto;
-    /* This adds vertical scroll if content overflows the container */
+* {
+    font-family: Ubuntu;
+}
+
+.img-project {
+    width: 100%;
+}
+
+.img-tools {
+    width: 100%;
+    height: 100%;
+}
+
+.tools {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    margin: 2px 0.5rem;
 }

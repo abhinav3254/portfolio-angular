@@ -1,25 +1,15 @@
 <div style="margin-top: 8rem;">
-    <!-- <div class="container">
+    <div class="container">
         <div class="row">
             <div class="col-sm" *ngFor="let project of projects">
                 <div class="card card-main">
                     <img src="{{project.img}}" alt="">
-                    <button type="button" class="btn btn-primary" data-toggle="modal"
-                        data-target=".bd-example-modal-lg">Large modal</button>
-
-                    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog"
-                        aria-labelledby="myLargeModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-lg">
-                            <div class="modal-content">
-                                ...
-                            </div>
-                        </div>
-                    </div>
+                    <button class="button-dialog btn btn-primary btn-lg" mat-button
+                        (click)="openDialog(project)">Details</button>
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
 
-    <button mat-button (click)="openDialog(projects[0])">Open dialog</button>
 
 </div>

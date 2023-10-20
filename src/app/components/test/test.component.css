@@ -8,7 +8,10 @@
     margin: 0.4rem auto;
 }
 
-.btn {
+
+.button-dialog {
     width: 50%;
     margin: 0.5rem auto;
+    border: none;
+    /* background-color: #6b72f7; */
 }
