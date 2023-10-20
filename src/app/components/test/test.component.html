@@ -1,37 +1,12 @@
-<div class="card one-main margin-top-4rem">
-    <div class="left">
-        <div class="left-main-one">
-            <h2 class="h2-left">Get In Touch</h2>
-            <p class="p-left">I am here for you! How can I help?</p>
-            <!-- for form -->
-            <div class="form-data">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingInput" placeholder="Enter your name">
-                    <label for="floatingInput">Enter your name</label>
+<div style="margin-top: 8rem;">
+    <div class="container">
+        <div class="row">
+            <div class="col" *ngFor="let skill of skills">
+                <div class="card main-card">
+                    <img src="{{skill.src}}" alt="...">
+                    <h4>{{skill.name}}</h4>
                 </div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingPassword" placeholder="Enter your email">
-                    <label for="floatingPassword">Enter your email</label>
-                </div>
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                        style="height: 100px"></textarea>
-                    <label for="floatingTextarea2">Go ahead, I am listening....</label>
-                </div>
-                <button type="button" class="btn btn-primary">submit</button>
             </div>
         </div>
     </div>
-    <div class="right">
-        <div class="img-right">
-            <img class="contact-img" src="assets/contact_us.svg" alt="">
-        </div>
-    </div>
-</div>
-
-<div class="my-map">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.3374005572946!2d85.89330437538665!3d26.153138992319924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edb836bf9871c3%3A0x3f6c2ba8f2aa2d46!2s5V3W%2B58Q%2C%20Lalbagh%2C%20near%20Poonam%20Cinema%2C%20Lal%20Bagh%2C%20Darbhanga%2C%20Bihar%20846004!5e0!3m2!1sen!2sin!4v1697298573935!5m2!1sen!2sin"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
