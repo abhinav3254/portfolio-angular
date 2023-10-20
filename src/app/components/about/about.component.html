@@ -32,15 +32,74 @@
             expertise and efforts without any associated costs. I look forward to the opportunity to engage with and
             assist on a range of software endeavors, fostering mutual growth and success.
         </p>
-    </div>
-
-    <div class="card">
+        <hr>
         <p>
             I am consistently prepared to embrace challenges and push the boundaries in coding. I maintain a steadfast
             commitment to learning new technologies and programming languages, fostering a perpetual drive for
             professional
             growth.
         </p>
+    </div>
+
+    <!-- <div class="card">
+        <p>
+            I am consistently prepared to embrace challenges and push the boundaries in coding. I maintain a steadfast
+            commitment to learning new technologies and programming languages, fostering a perpetual drive for
+            professional
+            growth.
+        </p>
+    </div> -->
+
+    <div class="card">
+
+        <mat-stepper>
+            <mat-step label="Matriculation" state="phone">
+                <h4>DAV Public School</h4>
+                <p>9.6 CGPA</p>
+                <p>
+                    Graduated from DAV Public School with a strong foundation in academics, ethics, and values,
+                    reflecting the institution's commitment to holistic education.
+                </p>
+                <!-- <div>
+                    <button class="btn btn-success" mat-button matStepperNext>Next</button>
+                </div> -->
+            </mat-step>
+            <mat-step label="Intermediate" state="chat">
+                <h4>Sri Chaitanya</h4>
+                <p>70.6</p>
+                <p>
+                    I completed my intermediate education at Sri Chaitanya, a renowned educational institution known for
+                    its academic excellence and commitment to providing high-quality educational opportunities. During
+                    my time at Sri Chaitanya, I gained valuable knowledge and skills, which have significantly
+                    contributed to my educational journey and personal growth.
+                </p>
+                <!-- <div>
+                    <button class="btn btn-danger" mat-button matStepperPrevious>Back</button>
+                    <button class="btn btn-success" mat-button matStepperNext>Next</button>
+                </div> -->
+            </mat-step>
+            <mat-step label="Graduation">
+                <h4>Bansal Group Of Institutes</h4>
+                <h4>B.Tech (CSE) </h4>
+                <p>8.9 CGPA</p>
+                <p>
+                    I completed my graduation from Bansal Group of Institutes, where I acquired a comprehensive
+                    education
+                    and valuable skills in my chosen field. This educational journey was instrumental in shaping my
+                    knowledge and providing me with a strong foundation for future endeavors.
+                </p>
+            </mat-step>
+
+            <!-- Icon overrides. -->
+            <ng-template matStepperIcon="phone">
+                <!-- <mat-icon>call_end</mat-icon> -->
+            </ng-template>
+            <ng-template matStepperIcon="chat">
+                <!-- <mat-icon>forum</mat-icon> -->
+            </ng-template>
+        </mat-stepper>
+
+
     </div>
 
 </div>

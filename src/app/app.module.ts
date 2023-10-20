@@ -20,6 +20,7 @@ import { TestComponent } from './components/test/test.component';
 import { FormsModule } from '@angular/forms';
 import { MatDialogModule } from '@angular/material/dialog';
 import { DialogComponent } from './components/util/dialog/dialog.component';
+import { MatStepperModule } from '@angular/material/stepper';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { DialogComponent } from './components/util/dialog/dialog.component';
     MatTreeModule,
     MatInputModule,
     FormsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatStepperModule
   ],
   providers: [],
   bootstrap: [AppComponent]
