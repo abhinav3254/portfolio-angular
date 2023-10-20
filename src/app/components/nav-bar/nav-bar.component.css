@@ -10,6 +10,11 @@
 }
 
 
+/* This property made nav bar items center */
+.navbar-nav {
+    margin: 10px auto;
+}
+
 .nav-item {
     margin: 0px 0.5rem;
     padding: 0.2rem 1rem;
