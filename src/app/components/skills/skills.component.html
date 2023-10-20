@@ -1,12 +1,10 @@
 <div [@fadeInOut] *ngIf="showComponent">
-    <div class="card margin-top-4rem">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col" *ngFor="let skill of skills">
-                    <div class="skill-one card">
-                        <img class="image-logo" src="{{skill.src}}" alt="">
-                        <h4>{{skill.name}}</h4>
-                    </div>
+    <div class="container margin-top-4rem">
+        <div class="row">
+            <div class="col" *ngFor="let skill of skills">
+                <div class="card main-card">
+                    <img src="{{skill.src}}" alt="...">
+                    <h4>{{skill.name}}</h4>
                 </div>
             </div>
         </div>
