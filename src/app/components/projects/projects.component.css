@@ -1,95 +1,17 @@
-.one {
-    display: flex;
-    flex-direction: row;
-    margin: 1rem 2rem;
-    padding: 1rem;
-    font-family: Ubuntu;
+/* .card-main {
+    width: 20rem;
+    height: 20rem;
+} */
+
+
+.col-sm {
+    margin: 0.4rem auto;
 }
 
-.left {
+
+.button-dialog {
     width: 50%;
-    border-radius: 1rem;
-    padding: 1rem;
-    border: 1px solid black;
-}
-
-.left img {
-    height: 100%;
-    width: 100%;
-}
-
-.right {
-    margin: auto 1rem;
-    width: 50%;
-}
-
-.tech-stack {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-.tech-stack img {
-    height: 10%;
-    width: 20%;
-    text-align: center;
-    margin: auto;
-}
-
-.btn-details {
+    margin: 0.5rem auto;
     border: none;
-    padding: 1rem 2rem;
-    border-radius: 0.5rem;
-}
-
-.right-h4 {
-    font-family: Ubuntu;
-    font-weight: 900;
-}
-
-.right-h4 h4 {
-    font-family: Ubuntu;
-    font-weight: 600;
-}
-
-
-/* writing media query for responsive */
-@media screen and (max-width: 600px) {
-
-    .one {
-        display: flex;
-        flex-direction: column;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .left {
-        width: 100%;
-    }
-
-    .right {
-        width: 100%;
-    }
-
-    .right-h4 {
-        text-align: center;
-    }
-
-    .tech-stack {
-        margin: 1rem;
-    }
-
-}
-
-
-/* angular transition */
-
-.fade-enter,
-.fade-leave {
-    opacity: 0;
-}
-
-.fade-enter-active,
-.fade-leave-active {
-    transition: opacity 300ms;
+    /* background-color: #6b72f7; */
 }
